@@ -1,0 +1,42 @@
+<!-- Example style sheet; update for this site -->
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 150%;
+  background-color: azure;
+}
+
+header {
+  background-color: steelblue;
+}
+
+nav {
+  background-color: lightgray;
+}
+
+main {
+  background-color: white;
+  font-size: 118%;
+}
+
+footer {
+  background-color: steelblue;
+}
+
+li {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  background: lightyellow;
+  line-height: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: lightyellow;
+}
+
+p {
+  line-height: 1.5;
+}
