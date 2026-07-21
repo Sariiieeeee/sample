@@ -34,6 +34,22 @@ h1, h2, h3, footer {
   border-radius: 4px;
 }
 
+main p {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+figure figcaption {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
 main {
   padding: 0 1rem 2rem;
 }
