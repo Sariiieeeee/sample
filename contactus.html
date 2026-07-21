@@ -10,7 +10,13 @@
       background-size: cover;
       background-position: center;
     }
-  
+
+    .page-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
     .nav-button {
       display: inline-block;
       padding: 6px 12px;
@@ -30,9 +36,13 @@
 </head>
 
 <body>
-  <img src="logos/sjlogo.png" alt="Sarah & Jay's Scaly Things logo" height="200"></a>
-  <h1 style="color:white; font-family: Arial">Contact Us</h1>
-  <h3 style="color:white; font-family: Arial">Scaly Things by Sarah & Jay</h3>
+  <div class="page-header">
+    <div>
+      <h1 style="color:white; font-family: Arial">Contact Us</h1>
+      <h3 style="color:white; font-family: Arial">Scaly Things by Sarah & Jay</h3>
+    </div>
+    <img src="logos/sjlogo.png" alt="Sarah & Jay's Scaly Things logo" height="200">
+  </div>
 
   <br>
   <a href="index.html" class="nav-button">Home</a>
