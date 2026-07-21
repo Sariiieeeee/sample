@@ -114,6 +114,15 @@ figure {
   margin: 0 0 1rem 0;
 }
 
+figure figcaption {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+}
+
 /* Smaller inline icons (mail/etsy/morphmarket/heart icons) get a lighter box */
 .icon-img {
   border-width: 2px;
