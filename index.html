@@ -1,77 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="logos/sjlogo-favicon.png">
-  <title>Scaly Things by Sarah & Jay</title>
-  <style>
-    body {
-      background-image: url('wallpaper/metalicspine.jpeg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      background-position: center;
-    }
-
-    h1, h2, h3, footer {
-      background-color: rgba(0, 0, 0, 0.5);
-      display: inline-block;
-      padding: 4px 8px;
-      border-radius: 4px;
-    }
-    
-    .nav-button {
-      display: inline-block;
-      padding: 6px 12px;
-      background-color: #e0e0e0;
-      border: 1px solid #999;
-      border-radius: 4px;
-      text-decoration: none;
-      color: black;
-      font-family: Arial;
-      cursor: pointer;
-    }
-
-    .nav-button:hover {
-      background-color: #c8c8c8;
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Scaly Things by Sarah &amp; Jay</title>
 </head>
 
-<body>
-  <h1 style="color:white; font-family: Arial">Scaly Things</h1>
-  <h2 style="color:white; font-family: Arial">by Sarah & Jay</h2><br>
-  <h3 style="color:white; font-family: Arial"><em>Welcome to our page!</em></h3>
+<body class="home-page">
+  <a href="#main" class="skip-link">Skip to Main Content</a>
 
-  <br><br>
-  <a href="ouranimals.html" class="nav-button">Our Animals</a>
-  <a href="contactus.html" class="nav-button">Contact Us</a>
+  <header>
+    <h1>Scaly Things</h1>
+    <h2>by Sarah &amp; Jay</h2>
+    <h3><em>Welcome to our page!</em></h3>
 
- <br><br>
-  <img src="logos/AliceHeart.png" alt="Ball Python Heart" height="50">
-  <img src="logos/BoaHeart.png" alt="Boa Heart" height="50">
-  <img src="logos/BPHeart.png" alt="Wild-type Ball Python Heart" height="50">
- <br><br>
-<body>
-<p style="color:white; font-family: Arial"> Jay and I grew up in the lowcountry and began keeping reptiles in 2022, starting with our first boa and royal python. Since then, we have slowly grown our collection and dipped our toes into breeding. Our first adventure was truly a rookie mistake when we housed together what we though were two female crested geckos. Before we knew it, and even after separating the pair, we were already on the path to hatching 12 babies. We learned a lot, which eventually lead us to pairing our corn snakes, Oreo and Peach, last fall. Down to our last baby, we are exciting about their next pairing and all the new experiences that are sure to come. </p>
-</body> 
-  <br><br>
-    <img src="images/***US***.JPG" alt="Jesse & Sarah" height="300">
-  <br><br>
-  <meter min="0" max="100" value="86">86%</meter><br>
-  <meter min="0" max="100" value="25">25%</meter><br>
-  <meter min="0" max="100" value="50">50%</meter><br>
-  <br><br><br>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="ouranimals.html" class="nav-button">Our Animals</a>
+      <a href="contactus.html" class="nav-button">Contact Us</a>
+    </nav>
+  </header>
 
-  <a href="mailto:sarahmthomas86@yahoo.com">
-    <img src="logos/mailicon.png" alt="Mail to" height="50"></a>
-  <a href="https://www.etsy.com/shop/sarahsscalythings/" target="_blank" rel="noopener noreferrer">
-    <img src="logos/etsyicon.png" alt="Etsy Shop" height="50"></a>
-  <a href="https://www.morphmarket.com/stores/jayweiland/" target="_blank" rel="noopener noreferrer">
-    <img src="logos/morphmarketicon.png" alt="Morph Market" height="50"></a>
-  <br><br><br>
+  <main id="main">
+    <p>
+      <img src="logos/AliceHeart.png" alt="Royal Python Heart" height="50" class="icon-img">
+      <img src="logos/BoaHeart.png" alt="Boa Heart" height="50" class="icon-img">
+      <img src="logos/BPHeart.png" alt="Wild-type Ball Python Heart" height="50" class="icon-img">
+    </p>
 
-  <footer style="color:white; font-family: Arial">
-    &copy; 2026 by Sarah Weiland<br>
+    <p>
+      Jay and I grew up in the lowcountry and began keeping reptiles in 2022, starting with our
+      first boa and royal python. Since then, we have slowly grown our collection and dipped our
+      toes into breeding. Our first adventure was truly a rookie mistake when we housed together
+      what we thought were two female crested geckos. Before we knew it, and even after separating
+      the pair, we were already on the path to hatching 12 babies. We learned a lot, which
+      eventually led us to pairing our corn snakes, Oreo and Peach, last fall. Down to our last
+      baby, we are excited about their next pairing and all the new experiences that are sure to come.
+    </p>
+
+    <figure>
+      <img src="images/us.jpg" alt="Sarah and Jay" height="300">
+      <figcaption>Sarah &amp; Jay</figcaption>
+    </figure>
+
+    <p>
+      <meter min="0" max="100" value="86">86%</meter><br>
+      <meter min="0" max="100" value="25">25%</meter><br>
+      <meter min="0" max="100" value="50">50%</meter>
+    </p>
+
+    <p>
+      <a href="mailto:sarahmthomas86@yahoo.com">
+        <img src="logos/mailicon.png" alt="Email us" height="50" class="icon-img"></a>
+      <a href="https://www.etsy.com/shop/sarahsscalythings/" target="_blank" rel="noopener noreferrer">
+        <img src="logos/etsyicon.png" alt="Etsy Shop" height="50" class="icon-img"></a>
+      <a href="https://www.morphmarket.com/stores/jayweiland/" target="_blank" rel="noopener noreferrer">
+        <img src="logos/morphmarketicon.png" alt="Morph Market" height="50" class="icon-img"></a>
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2026 by Sarah Weiland
   </footer>
 </body>
 </html>
