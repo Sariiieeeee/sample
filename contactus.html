@@ -1,64 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <style>
-    body {
-      background-image: url('wallpaper/metalicspine.jpeg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      background-position: center;
-    }
-
-    .page-header {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-    }
-
-    .nav-button {
-      display: inline-block;
-      padding: 6px 12px;
-      background-color: #e0e0e0;
-      border: 1px solid #999;
-      border-radius: 4px;
-      text-decoration: none;
-      color: black;
-      font-family: Arial;
-      cursor: pointer;
-    }
-
-    .nav-button:hover {
-      background-color: #c8c8c8;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="logos/sjlogo-favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Contact Us - Scaly Things by Sarah &amp; Jay</title>
 </head>
 
-<body>
-  <div class="page-header">
+<body class="contact-page">
+  <a href="#main" class="skip-link">Skip to Main Content</a>
+
+  <header class="page-header">
     <div>
-      <h1 style="color:white; font-family: Arial">Contact Us</h1>
-      <h2 style="color:white; font-family: Arial">Scaly Things</h2><h3 style="color:white; font-family: Arial"> by Sarah & Jay</h3><br>
+      <h1>Contact Us</h1>
+      <h2>Scaly Things</h2>
+      <h3>by Sarah &amp; Jay</h3>
     </div>
-    <img src="logos/sjlogo.png" alt="Sarah & Jay's Scaly Things logo" height="200">
-  </div>
+    <img src="logos/sjlogo.png" alt="Sarah &amp; Jay's Scaly Things logo" height="200">
+  </header>
 
-  <br>
-  <a href="index.html" class="nav-button">Home</a>
-  <a href="ouranimals.html" class="nav-button">Our Animals</a>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html" class="nav-button">Home</a>
+    <a href="ouranimals.html" class="nav-button">Our Animals</a>
+  </nav>
 
-  <br><br><br>
-  <a href="mailto:sarahmthomas86@yahoo.com">
-    <img src="logos/mailicon.png" alt="Mail to" height="100"></a>
-  <a href="https://www.etsy.com/shop/sarahsscalythings/" target="_blank" rel="noopener noreferrer">
-    <img src="logos/etsyicon.png" alt="Etsy Shop" height="100"></a>
-  <a href="https://www.morphmarket.com/stores/jayweiland/" target="_blank" rel="noopener noreferrer">
-    <img src="logos/morphmarketicon.png" alt="Morph Market" height="100"></a>
-  <br><br><br>
+  <main id="main">
+    <p>
+      <a href="mailto:sarahmthomas86@yahoo.com">
+        <img src="logos/mailicon.png" alt="Email us" height="100" class="icon-img"></a>
+      <a href="https://www.etsy.com/shop/sarahsscalythings/" target="_blank" rel="noopener noreferrer">
+        <img src="logos/etsyicon.png" alt="Etsy Shop" height="100" class="icon-img"></a>
+      <a href="https://www.morphmarket.com/stores/jayweiland/" target="_blank" rel="noopener noreferrer">
+        <img src="logos/morphmarketicon.png" alt="Morph Market" height="100" class="icon-img"></a>
+    </p>
+  </main>
 
-  <footer style="color:white; font-family: Arial">
-    &copy; 2026 by Sarah Weiland<br>
+  <footer>
+    &copy; 2026 by Sarah Weiland
   </footer>
 </body>
 </html>
