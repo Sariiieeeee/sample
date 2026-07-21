@@ -1,53 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="logos/sjlogo-favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Our Animals - Scaly Things by Sarah &amp; Jay</title>
+</head>
 
-<style>
-  body {
-    background-image: url('wallpaper/marbleheart.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-  }
+<body class="animals-page">
+  <a href="#main" class="skip-link">Skip to Main Content</a>
 
-    .nav-button {
-      display: inline-block;
-      padding: 6px 12px;
-      background-color: #e0e0e0;
-      border: 1px solid #999;
-      border-radius: 4px;
-      text-decoration: none;
-      color: black;
-      font-family: Arial;
-      cursor: pointer;
-    }
+  <header>
+    <h1>Our Animals</h1>
+    <h2>Scaly Things</h2>
+    <h3>by Sarah &amp; Jay</h3>
 
-    .nav-button:hover {
-      background-color: #c8c8c8;
-    }
-</style>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html" class="nav-button">Home</a>
+      <a href="contactus.html" class="nav-button">Contact Us</a>
+    </nav>
+  </header>
 
-<h1 style="color:white; font-family: Arial">Our Animals</h1>
-<h2 style="color:white; font-family: Arial">Scaly Things</h2><h3 style="color:white; font-family: Arial"> by Sarah & Jay</h3><br>
-  <br>
-  <a href="index.html" class="nav-button">Home</a>
-  <a href="contactus.html" class="nav-button">Contact Us</a>
-<br>
+  <main id="main">
+    <h2>Our Snakes</h2>
 
-<h3 style="color:white; font-family: Arial">Our Snakes</h3>
-		<li><a href=boas.html>The Boas</a></li>
-		<li><a href=cornsnakes.html>The Corn Snake</a></li>
-		<li><a href=fancypythons.html>The Fancy Pythons</a></li>		
-                <li><a href=royalpythons.html>The Royal Python</a></li>
-		<li><a href=vipers.html>The Vipers</a></li>
+    <details class="animal-group">
+      <summary>The Boas</summary>
+      <div class="animal-group-content">
+        <figure>
+          <img src="images/Heidi.jpg" alt="Heidi the Boa Constrictor" loading="lazy">
+          <figcaption>Heidi the Boa Constrictor Imperator <em>(Hypomelanistic, Het Sharp, Het Blood)</em></figcaption>
+        </figure>
+        <figure>
+          <img src="images/Hugo.jpg" alt="Hugo the Boa Constrictor" loading="lazy">
+          <figcaption>Hugo the Boa Constrictor Imperator <em>(Hypomelanistic, Het Sharp)</em></figcaption>
+        </figure>
+      </div>
+    </details>
 
-<br>
-<h3 style="color:white; font-family: Arial">Our Lizards</h3>
-		<li><a href=dragons.html>The Bearded Dragons</a></li>
-		<li><a href=geckos.html>The Crested Geckos</a></li>
+    <details class="animal-group">
+      <summary>The Corn Snakes</summary>
+      <div class="animal-group-content">
+        <figure>
+          <img src="images/Oreo.jpg" alt="Oreo the Corn Snake" loading="lazy">
+          <figcaption>Oreo the Corn Snake (Pantherophis Guttatus) <em>(Anerythristic)</em></figcaption>
+        </figure>  
+		<figure>
+          <img src="images/Peach.jpg" alt="Peach the Corn Snake" loading="lazy">
+          <figcaption>Peach the Corn Snake (Pantherophis Guttatus) <em>(Anerythristic, Amelanistic)</em></figcaption>
+        </figure>
+      </div>
+    </details>
 
-<br><br><br>
-<footer style="color:white; font-family: Arial">
-	&copy; 2026 by Sarah Weiland<br>
-</footer>
+    <details class="animal-group">
+      <summary>The Fancy Pythons</summary>
+      <div class="animal-group-content">
+        <figure>
+          <img src="images/Wednesday.jpg" alt="Wednesday the Borneo Short-tailed Python" loading="lazy">
+          <figcaption>Wednesday the Borneo Short-tailed Python (P. Curtus, Brogersmai, Breitensteini)<em>(Genetic Strip)</em></figcaption>
+        </figure>
+        <figure>
+          <img src="images/LouieLinguine.jpg" alt="Louie the Coastal Carpet Python" loading="lazy">
+          <figcaption>Louie the Coastal Carpet Python (Morelia Spilota McDowelli)<em>(Caramel)</em></figcaption>
+        </figure>
+      </div>
+    </details>
+
+    <details class="animal-group">
+      <summary>The Royal Pythons</summary>
+      <div class="animal-group-content">
+        <figure>
+          <img src="images/Alice.jpg" alt="Alice the Royal Python" loading="lazy">
+          <figcaption>Alice the Royal Python (Python Regius)<em>(Chocolate Butter Ghost)</em></figcaption>
+        </figure>
+        <figure>
+          <img src="images/Harrison.jpg" alt="Harry the Royal Python" loading="lazy">
+          <figcaption>Harrison &quot;Harry&quot; the Royal Python (Python Regius)<em>(Wild Type)</em></figcaption>
+        </figure>
+        <figure>
+          <img src="images/Winnie.jpg" alt="Winnie the Royal Python" loading="lazy">
+          <figcaption>Winstong &quot;Winnie&quot; the Royal Python (Python Regius)<em>(Lesser)</em></figcaption>
+        </figure>
+      </div>
+    </details>
+
+    <details class="animal-group">
+      <summary>The Vipers</summary>
+      <div class="animal-group-content">
+        <figure>
+          <img src="images/Nimue.jpg" alt="Nimue the Variable Bush Viper" loading="lazy">
+          <figcaption>Nimue &quot;Nimi&quot; the Variable Bush Viper (Atheris Squamigera)<em>(Wild Type)</em></figcaption>
+        </figure>
+      </div>
+    </details>
+
+    <h2>Our Lizards</h2>
+
+    <details class="animal-group">
+      <summary>The Bearded Dragons</summary>
+      <div class="animal-group-content">
+        <figure>
+          <img src="images/Myrcella.jpg" alt="Myrcella the Bearded Dragon" loading="lazy">
+          <figcaption>Myrcella the Bearded Dragon (Pogona Vitticeps)<em>(Wild Type)</em></figcaption>
+        </figure>
+        <figure>
+          <img src="images/Elliot.jpeg" alt="Elliot the Bearded Dragon" loading="lazy">
+          <figcaption>Elliot the Bearded Dragon (Pogona Vitticeps)<em>(Red Phase)</em></figcaption>
+        </figure>
+      </div>
+    </details>
+
+    <details class="animal-group">
+      <summary>The Crested Geckos</summary>
+      <div class="animal-group-content">
+        <figure>
+          <img src="images/Odessa.jpg" alt="Odessa the Crested Gecko" loading="lazy">
+          <figcaption>Odessa the Crested Gecko (Correlophus Ciliatus)<em>(Dalmation, Flame)</em></figcaption>
+        </figure>
+        <figure>
+          <img src="images/Oberyn.jpeg" alt="Oberyn the Crested Gecko" loading="lazy">
+          <figcaption>Oberyn the Crested Gecko (Correlophus Ciliatus)<em>(Cappuccino)</em></figcaption>
+        </figure>
+      </div>
+    </details>
+  </main>
+
+  <footer>
+    &copy; 2026 by Sarah Weiland
+  </footer>
+</body>
 </html>
