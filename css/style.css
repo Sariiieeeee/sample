@@ -20,11 +20,11 @@ body {
 /* Each page keeps its own background image via a body class */
 body.home-page,
 body.contact-page {
-  background-image: url('wallpaper/metalicspine.jpeg');
+  background-image: url('../wallpaper/metalicspine.jpeg');
 }
 
 body.animals-page {
-  background-image: url('wallpaper/marbleheart.jpeg');
+  background-image: url('../wallpaper/metalicspine.jpeg');
 }
 
 h1, h2, h3, footer {
