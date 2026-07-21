@@ -149,6 +149,12 @@ figure:hover figcaption {
   border-radius: 8px;
 }
 
+.icon-row {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+
 /* =========================================================
    Our Animals page — <details> accordion sections
    ========================================================= */
