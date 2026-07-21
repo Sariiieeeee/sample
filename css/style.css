@@ -110,6 +110,10 @@ img {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+figure {
+  margin: 0 0 1rem 0;
+}
+
 /* Smaller inline icons (mail/etsy/morphmarket/heart icons) get a lighter box */
 .icon-img {
   border-width: 2px;
