@@ -112,13 +112,31 @@ main {
   }
 }
 
-/* Page header — Flexbox (logo aligned right, inline w/ heading) - Used on Contact Us page */
+/* Page header — Flexbox, mobile-first (stacked/centered by default, row on wider screens) - Used on Contact Us page */
 .page-header {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 1rem;
+}
+
+.page-header img {
+  height: 120px;
+}
+
+/* Upgrade to side-by-side row on wider screens */
+@media (min-width: 600px) {
+  .page-header {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .page-header img {
+    height: 200px;
+  }
 }
 
 /* Images — Box model (border, padding, border-radius) on ALL images */
