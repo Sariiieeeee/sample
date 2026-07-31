@@ -126,7 +126,6 @@ figure:hover figcaption {
   width: 100px;
   height: 100px;
   object-fit: contain;
-  border-width: 2px;
   padding: 4px;
   border-radius: 8px;
 }
