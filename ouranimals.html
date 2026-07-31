@@ -130,6 +130,19 @@
     </details>
   </main>
 
+<!-- Lightbox code for images -->
+<div id="lightbox" class="lightbox" hidden tabindex="-1" role="dialog" aria-label="Image viewer" aria-modal="true">
+  <button id="lightbox-close" class="lightbox-close" aria-label="Close">&times;</button>
+  <button id="lightbox-prev" class="lightbox-nav lightbox-prev" aria-label="Previous image">&#10094;</button>
+  <figure class="lightbox-figure">
+    <img id="lightbox-img" src="" alt="">
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+  <button id="lightbox-next" class="lightbox-nav lightbox-next" aria-label="Next image">&#10095;</button>
+</div>
+
+<script src="js/lightbox.js"></script>
+	
   <footer>
     &copy; 2026 by Sarah Weiland
   </footer>
