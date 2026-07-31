@@ -253,6 +253,11 @@ figure:hover figcaption {
   border-radius: 4px;
 }
 
+/* Override the global figcaption hover-fade so the lightbox caption is always visible */
+.lightbox-figure figcaption {
+  opacity: 1;
+}
+
 .lightbox-close,
 .lightbox-nav {
   position: absolute;
