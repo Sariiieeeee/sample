@@ -273,10 +273,12 @@ figure:hover figcaption {
 }
 
 .lightbox-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 90vw;
   max-height: 90vh;
   margin: 0;
-  text-align: center;
 }
 
 .lightbox-figure img {
