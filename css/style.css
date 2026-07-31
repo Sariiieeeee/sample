@@ -219,7 +219,24 @@ figure:hover figcaption {
   border-radius: 10px;
 }
 
+
+/* ---- Sticky Footer ---- */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
 footer {
   display: block;
   width: fit-content;
+  flex-shrink: 0;
 }
