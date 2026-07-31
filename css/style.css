@@ -298,6 +298,13 @@ figure:hover figcaption {
   background: rgba(255, 255, 255, 0.35);
 }
 
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
 
 /* ---- Sticky Footer ---- */
 html {
