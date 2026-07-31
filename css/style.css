@@ -32,6 +32,10 @@ h1, h2, h3, footer {
   border-radius: 4px;
 }
 
+.section-heading {
+  color: #39ff14;
+}
+
 main p {
   background-color: rgba(0, 0, 0, 0.5);
   display: inline-block;
