@@ -121,13 +121,17 @@ figure:hover figcaption {
   opacity: 1;
 }
 
-/* Smaller inline icons (mail/etsy/morphmarket/heart icons) get a lighter box */
+/* Smaller inline icons (mail/etsy/morphmarket/heart icons) */
 .icon-img {
   width: 100px;
   height: 100px;
   object-fit: contain;
   padding: 4px;
   border-radius: 8px;
+}
+
+.icon-img.icon-etsy {
+  transform: scale(0.85);
 }
 
 .icon-row {
