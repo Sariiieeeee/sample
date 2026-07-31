@@ -39,6 +39,11 @@ main p {
   border-radius: 4px;
 }
 
+main figure img {
+  max-width: 100%;
+  height: auto;
+}
+
 figure figcaption {
   background-color: rgba(0, 0, 0, 0.6);
   display: inline-block;
