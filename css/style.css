@@ -1,7 +1,7 @@
 /* Scaly Things — shared stylesheet */
 
 /* ---- Base ---- */
-{
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -115,11 +115,6 @@ img {
 
 figure {
   margin: 0 0 1rem 0;
-}
-
-figure figcaption {
-  opacity: 0;
-  transition: opacity 0.3s ease;
 }
 
 figure:hover figcaption {
