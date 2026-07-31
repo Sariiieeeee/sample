@@ -1,6 +1,6 @@
 /* Scaly Things — shared stylesheet */
 
-/* ---- Base ---- */
+/* Base */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -70,10 +70,11 @@ main {
   top: 0;
 }
 
-/* Navigation — Flexbox + attractive styling (3+ properties) */
+/* Navigation (mobile-first: stacked by default) */
 .site-nav {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: stretch;
   gap: 12px;
   padding: 12px 0;
 }
@@ -88,6 +89,7 @@ main {
   color: black;
   font-family: Arial;
   cursor: pointer;
+  text-align: center;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -95,6 +97,19 @@ main {
 .nav-button:focus {
   background-color: #c8c8c8;
   transform: scale(1.08);
+}
+
+/* Upgrade to horizontal row on wider screens */
+@media (min-width: 600px) {
+  .site-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: normal;
+  }
+
+  .nav-button {
+    text-align: left;
+  }
 }
 
 /* Page header — Flexbox (logo aligned right, inline w/ heading) - Used on Contact Us page */
