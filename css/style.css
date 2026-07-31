@@ -222,4 +222,6 @@ figure:hover figcaption {
 footer {
   display: block;
   width: fit-content;
+  position: absolute;
+  bottom: 0;
 }
