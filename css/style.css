@@ -220,6 +220,82 @@ figure:hover figcaption {
 }
 
 
+/* ---- Lightbox ---- */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.lightbox[hidden] {
+  display: none;
+}
+
+.lightbox-figure {
+  max-width: 90vw;
+  max-height: 90vh;
+  margin: 0;
+  text-align: center;
+}
+
+.lightbox-figure img {
+  max-width: 90vw;
+  max-height: 80vh;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.lightbox-caption {
+  margin-top: 0.75rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.lightbox-close,
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.lightbox-close {
+  top: 20px;
+  right: 20px;
+  transform: none;
+}
+
+.lightbox-prev {
+  left: 20px;
+}
+
+.lightbox-next {
+  right: 20px;
+}
+
+.lightbox-close:hover,
+.lightbox-close:focus,
+.lightbox-nav:hover,
+.lightbox-nav:focus {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+
 /* ---- Sticky Footer ---- */
 html {
   height: 100%;
